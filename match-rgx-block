@@ -1,3 +1,12 @@
+    testo=testo.replace(/\s*([=\(])\s*(\/.+\/[img]*)\s*([,;\)])/img,function(a,b,c,d){
+return b+replaceAndStore(regexStrings,'regex',c)+d;
+});
+
+    testo=testo.replace(/\s*([=\(])\s*(\/.+\/[img]*)\s*([,;\)])/img,function(a,b,c,d){
+return b+replaceAndStore(regexStrings,'regex',c)+d;
+});
+
+
 /\s*[=\(]\s*(\/.+\/[img]*)\s*[,;\)]/img
 /\s*[=\(]\s*(\/.+\/[img]*)\s*[,;\)]/img
 
