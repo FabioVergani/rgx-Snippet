@@ -1,0 +1,5 @@
+    for(let m=lines=testo.split(LinesRegEx),l=(testo='',m.length),i=0,e=/([^\/]*)\/\/.*$/img;i<l;){testo+=m[i].replace(e,'$1');++i;};//SingleLineComment
+	testo=testo.replace(/(.*)\s*[\r\n]+\s*(.*)/img,'$1\u0020$2');//CollapseInline
+    for(let m=lines=testo.split('*/'),l=(testo='',m.length),i=0,e=/(.*)\/\*(.*)$/img;i<l;){testo+=m[i].replace(e,'$1');++i;};//inlineCollapsedMultiLineComment
+    testo=testo.replace(/\s+/img,'\u0020').replace(/^\s+|\s+$/img,'').replace(/\s+([<=>~%,;&\(\)\[\]\{\}\?\!\*\+\:\-\|\/\\])/img,'$1');//CondenseWhiteSpace.
+    //
