@@ -1,6 +1,10 @@
-  pseudo:{
-	Elements:/:(:?(after|b(efore|ackdrop)|first-l(ine|etter)|placeholder|marker|(spelling|grammar)-error)|:selection)/gi,
-  },
+ 
+ 
+ 
+ 
+js: perf
+
+:(?::?(?:after|b(?:efore|ackdrop)|first-l(?:ine|etter)|placeholder|marker|(?:spelling|grammar)-error)|:selection)
 
 
 All pseudo-elements
