@@ -1,3 +1,7 @@
+jsperf
+:(?:hover|checked|n(?:ot\(.*\)|th-(?:child\(.*\)|last-(?:child\(.*\)|of-type\(.*\))|of-type\(.*\)))|f(?:irst(?:-(?:child|of-type))?|ullscreen|ocus)|v(?:alid|isited)|l(?:a(?:ng\(.*\)|st-(?:child|of-type))|eft|ink)|a(?:ctive|ny)|only-(?:child|of-type)|d(?:efault|(?:i(?:r\(.*\)|sabled)))|e(?:mpty|nabled)|r(?:e(?:quired|ad-(?:only|write))|ight|oot)|in(?:determinate|valid|-range)|o(?:ptional|ut-of-range)|target|scope)
+
+
 euristic:
 :(hover|checked|n(ot\(.*\)|th-(child\(.*\)|last-(child\(.*\)|of-type\(.*\))|of-type\(.*\)))|f(irst(-(child|of-type))?|ullscreen|ocus)|v(alid|isited)|l(a(ng\(.*\)|st-(child|of-type))|eft|ink)|a(ctive|ny)|only-(child|of-type)|d(efault|(i(r\(.*\)|sabled)))|e(mpty|nabled)|r(e(quired|ad-(only|write))|ight|oot)|in(determinate|valid|-range)|o(ptional|ut-of-range)|target|scope)
 
