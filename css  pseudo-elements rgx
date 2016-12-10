@@ -1,0 +1,39 @@
+All pseudo-elements
+
+/:(:?(after|b(efore|ackdrop)|first-l(ine|etter)|placeholder|marker|(spelling|grammar)-error)|:selection)/gi
+/:(:?(after|b(efore|ackdrop)|first-l(ine|etter)|placeholder|marker|(spelling|grammar)-error)|:selection)/gi
+
+
+
+::selection
+::after
+::before
+::first-letter
+::first-line
+::backdrop
+::placeholder 
+::marker 
+::spelling-error 
+::grammar-error 
+
+
+:after
+:before
+:first-letter
+:first-line
+:backdrop
+:placeholder 
+:marker 
+:spelling-error 
+:grammar-error 
+
+#Notes
+Sometimes you will see double colons (::) instead of just one (:)
+This is part of CSS3 and an attempt to distinguish
+between pseudo-classes and pseudo-elements.
+Most browsers support both values.
+
+::selection always starts with double colons (::).
+
+You can use only one pseudo-element in a selector:
+ It must appear after the simple selectors in the statement.
