@@ -1,0 +1,41 @@
+[A-Za-z0-6]* Type selector
+\* Universal selector
+#|\.|:|\[ for id,class,attribute and psuedo classes
+[-A-za-z0-9()+\s"=|^$*]+ id,class, attribute or pseudo class value
+
+
+*/
+
+var stringArray = [
+"div",
+"div:first-child",
+"div#id",
+"div123",
+"h1",
+"*.warning",
+".warning",
+"*#myid",
+"#myid",
+"p.pastoral.marine",
+"h1#chapter1",
+"*#z98y",
+"a.external:visited",
+"a:visited",
+"a:focus:hover",
+"tr:nth-child(2n+1)",
+"tr:nth-child(odd)",
+"p:nth-child(4n+4)",
+"foo:nth-child(0n+5)",
+"foo:nth-child(5)",
+":nth-child( 3n + 1 )",
+"img:nth-of-type(2n+1)",
+"h2:nth-of-type(n+2):nth-last-of-type(n+2)",
+"h2:not(:first-of-type):not(:last-of-type)",
+"h1[title]",
+'span[class="example"]',
+'span[hello="Cleveland"][goodbye="Columbus"]',
+'a[hreflang|="en"]',
+'object[type^="image"]',
+'a[href$=".html"]',
+'p[title*="hello"]'
+];
