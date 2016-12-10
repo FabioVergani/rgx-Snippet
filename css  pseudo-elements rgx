@@ -1,3 +1,8 @@
+  pseudo:{
+	Elements:/:(:?(after|b(efore|ackdrop)|first-l(ine|etter)|placeholder|marker|(spelling|grammar)-error)|:selection)/gi,
+  },
+
+
 All pseudo-elements
 
 /:(:?(after|b(efore|ackdrop)|first-l(ine|etter)|placeholder|marker|(spelling|grammar)-error)|:selection)/gi
