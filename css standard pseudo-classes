@@ -2,7 +2,7 @@ euristic:
 :(hover|checked|n(ot\(.*\)|th-(child\(.*\)|last-(child\(.*\)|of-type\(.*\))|of-type\(.*\)))|f(irst(-(child|of-type))?|ullscreen|ocus)|v(alid|isited)|l(a(ng\(.*\)|st-(child|of-type))|eft|ink)|a(ctive|ny)|only-(child|of-type)|d(efault|(i(r\(.*\)|sabled)))|e(mpty|nabled)|r(e(quired|ad-(only|write))|ight|oot)|in(determinate|valid|-range)|o(ptional|ut-of-range)|target|scope)
 
 order
-:(a(ctive|ny)|checked|d(efault|(i(r|sabled)))|e(mpty|nabled)|f(irst(-(child|of-type))?|ullscreen|ocus)|hover|in(determinate|valid|-range)|l(a(ng\(.*\)|st-(child|of-type))|eft|ink)|n(ot\(.*\)|th-(child\(.*\)|last-(child\(.*\)|of-type\(.*\))|of-type\(.*\)))|only-(child|of-type)|o(ptional|ut-of-range)|r(e(quired|ad-(only|write))|ight|oot)|scope|target|v(alid|isited))
+:(a(ctive|ny)|checked|d(efault|(i(r\(.*\)|sabled)))|e(mpty|nabled)|f(irst(-(child|of-type))?|ullscreen|ocus)|hover|in(determinate|valid|-range)|l(a(ng\(.*\)|st-(child|of-type))|eft|ink)|n(ot\(.*\)|th-(child\(.*\)|last-(child\(.*\)|of-type\(.*\))|of-type\(.*\)))|only-(child|of-type)|o(ptional|ut-of-range)|r(e(quired|ad-(only|write))|ight|oot)|scope|target|v(alid|isited))
 
 standard pseudo-classes
 :active
