@@ -1,23 +1,26 @@
+art:image/x-jg
+ico:image/x-icon
+jfif:image/pipeg
+jpg:image/jpeg
+ras:image/x-cmu-raster
+rf:image/vnd.rn-realflash
+svg:image/svg+xml
+
+wbmp:image/vnd.wap.wbmp
+
 bmp:image/bmp
+cmx:image/x-cmx
 cod:image/cis-cod
 gif:image/gif
 ief:image/ief
+png:image/png
 rgb:image/x-rgb
-cmx:image/x-cmx
-ras:image/x-cmu-raster
-jpg:image/jpeg
 tiff:image/tiff
 
-ico:image/x-icon
-
-jfif:image/pipeg
-svg:image/svg+xml
-
-pnm:image/x-portable-anymap
 pbm:image/x-portable-bitmap
 pgm:image/x-portable-graymap
+pnm:image/x-portable-anymap
 ppm:image/x-portable-pixmap
-
 
 xbm:image/x-xbitmap
 xpm:image/x-xpixmap
