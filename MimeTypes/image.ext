@@ -1,3 +1,18 @@
+/*
+ 
+x-icon:ico
+
+svg+xml:svg
+
+jpeg:jpeg
+gif:gif
+png:png
+apng:apng
+bmp:bmp
+webp:webp
+*/
+
+
 webp:image/webp 
 apng:image/apng
 
