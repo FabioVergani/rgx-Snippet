@@ -1,0 +1,14 @@
+\.(?:(?:pn|sv|jp(?:e)?)g|gif|webp)(?:\?(?:.*))?$
+
+/*
+optimal for test not capturing, 
+
+
+
+/\.(?:(?:pn|sv|jp(?:e)?)g|gif|webp)(?:\?(?:.*))?$/.test("ed0c.jpeg?aagifs?");
+
+
+
+
+
+*/
