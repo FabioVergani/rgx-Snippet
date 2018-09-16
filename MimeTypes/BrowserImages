@@ -7,6 +7,31 @@
 .jpg,
 .jpeg :image/jpeg
 
+
+.jxr
+
+.hdp
+
+.wdp
+
+
+image/vnd.ms-photo
+
+image/jxr
+
+
+.jp2, .j2k, .jpf, .jpx, .jpm, .mj2
+
+
+
+image/jp2,
+
+image/jpx,
+
+image/jpm,
+
+
+
 .png:image/png
 .apng: image/apng
 
