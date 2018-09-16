@@ -22,6 +22,17 @@ jfif:image/pipeg
 jpg:image/jpeg
 ras:image/x-cmu-raster
 rf:image/vnd.rn-realflash
+
+
+Filename extension	:
+.jxr[1]
+.hdp[2]
+.wdp[2]
+Internet media type:	
+image/vnd.ms-photo
+image/jxr
+
+
 svg:image/svg+xml
 
 wbmp:image/vnd.wap.wbmp
