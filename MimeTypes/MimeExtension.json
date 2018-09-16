@@ -1,0 +1,53 @@
+MimeExtension={
+	Images:{
+		Known:{
+			Supported:{
+				'webp ':'webp ',
+				'png':'png',
+				'apng':'apng',
+				'gif':'gif',
+				'bmp':'bmp',
+				'jxr':'jxr',
+				'jpx':'jpx',
+				'jpm':'jpm',
+				'jpeg':'jpg',
+				'pipeg':'jfif',
+				'jp2':['jp2','j2k','mj2','jpf']
+				'svg+xml':'svg',
+				'x-icon':'ico',
+			},
+			Unsupported:{
+				'vnd.wap.wbmp':'wbmp',//Decodable:https://github.com/andreasgal/wbmp.js/blob/master/wbmp.js canvas.toDataURL
+				'vnd.ms-photo':['hdp','wdp',]
+				'vnd.rn-realflash':'rf',
+				'x-rgb':'rgb',
+				'x-cmx':'cmx',
+				'cis-cod':'cod',
+
+				'ief':'ief',
+				'pdf':'pdf',
+
+				'tiff':['tiff','tif']
+
+				['x-targa ','x-tga']:['tga',' tpic']
+
+				'x-portable-bitmap':'pbm',
+				'x-portable-graymap':'pgm',
+				'x-portable-anymap':'pnm',
+				'x-portable-pixmap':'ppm',
+
+				'x-xbitmap':'xbm',
+				'x-xpixmap':'xpm',
+				'x-xwindowdump':'xwd',
+
+				'x-jg':'art',
+
+				'x-cmu-raster':'ras',
+
+
+
+			}
+		},
+		Unknown:{}
+	}
+}
