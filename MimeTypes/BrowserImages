@@ -1,12 +1,19 @@
-.bmp,
+.ico: image/x-icon
+.svg:image/svg+xml
+
+.bmp: image/bmp
+
+
 .jpg,
-.jpeg, 
+.jpeg :image/jpeg
 
-.png,
+.png:image/png
+.apng: image/apng
 
-.gif
 
-.webp
+.gif: image/gif
+
+.webp: image/webp 
 
 
 
